@@ -16,7 +16,7 @@ export default class Home extends React.Component {
                             <div className="icon-container">
 
                                 <div className="icon-wrapper windows-wrapper">
-                                    <i class="fab fa-windows icons"></i>
+                                    <i className="fab fa-windows icons"></i>
                                 </div>
                             </div>
                             <div className="highlight-text">
@@ -30,7 +30,7 @@ export default class Home extends React.Component {
                             <div className="icon-container">
 
                                 <div className="icon-wrapper node-wrapper">
-                                    <i class="fab fa-node icons"></i>
+                                    <i className="fab fa-node icons"></i>
                                 </div>
                             </div>
                             <div className="highlight-text">
@@ -44,7 +44,7 @@ export default class Home extends React.Component {
                             <div className="icon-container">
 
                                 <div className="icon-wrapper react-wrapper">
-                                    <i class="fab fa-react icons"></i>
+                                    <i className="fab fa-react icons"></i>
                                 </div>
                             </div>
                             <div className="highlight-text">
