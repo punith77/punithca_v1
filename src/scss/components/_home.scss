@@ -1,0 +1,237 @@
+.section-home{
+    color: #7014e8;
+    display: flex;
+    justify-content: center;;
+    align-items: center;
+}
+.home-wrapper{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;;
+    align-items: center;
+}
+.about-highlights{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-column-gap: 20px;
+    text-align: center;
+}
+.highlight-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+    color:#333;
+}
+
+.icon-container{
+    margin-bottom: 2rem;
+
+}
+.windows-wrapper{
+    border: 2px solid #7014e8;
+   
+}
+.windows-wrapper:before{
+    background-color: #7014e8;
+}
+.windows-wrapper:after{
+    border: 2px dashed #6772e5;
+}
+// #61dafb
+
+.node-wrapper{
+    border: 2px solid #026e00;
+}
+.node-wrapper:before{
+    background-color: #026e00;
+}
+.node-wrapper:after{
+    border: 2px dashed #06ac03;
+}
+.react-wrapper{
+    border: 2px solid #282c34;
+    i{
+        color:#61dafb;
+    }
+   
+}
+.react-wrapper:before{
+    background-color: #282c34;
+}
+.react-wrapper:after{
+    border: 2px dashed #555a64;
+}
+
+
+.sql-wrapper{
+    border: 2px solid #336791;
+}
+.sql-wrapper:before{
+    background-color: #336791;
+}
+.sql-wrapper:after{
+    border: 2px dashed #336791;
+}
+
+
+.icon-wrapper {
+    width: 12rem;
+    height: 12rem;
+   
+    border-radius: 50%;
+    transition: all 0.5s;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.icon-wrapper:before{
+    content: '';
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+   
+    border-radius: 50%;
+    z-index: -1;
+    transition: all 0.5s;
+    transform: scale(0.8);
+
+}
+.icon-wrapper:after{
+    content: '';
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    border-radius: 50%;
+    z-index: -1;
+    transition: all 0.5s;
+    
+    
+    animation: rotating 10s linear infinite;
+
+}
+.icons {
+    font-size: 4.8rem;
+    color: white;
+}
+
+@keyframes rotating {
+    0% {transform: scale(0.92) rotate(0deg)} 
+    100% {transform: scale(0.92) rotate(360deg)}
+ }
+
+ .highlight-text{
+     font-size: 1.6rem;
+ }
+
+
+
+.home-content{
+    text-align: center;
+padding: 10rem;
+}
+
+.home-header{
+    font-size: 10rem;
+
+    background-image: linear-gradient(to right, rgb(247, 28, 28), rgb(61, 61, 250));
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+
+.home-subheader {
+    display: inline-block;
+  	overflow: hidden;
+  	letter-spacing: 2px;
+ 	animation: typing 10s steps(40, end), blink .75s step-end infinite;
+    white-space: nowrap;
+    font-size: 3rem;
+    font-weight: 700;
+    border-right: 4px solid orange;
+    box-sizing: border-box;
+    color: rgba(236, 81, 73, 0.712);
+}
+@keyframes typing {
+    from { 
+        width: 0% 
+    }
+    to { 
+        width: 100% 
+    }
+}
+
+@keyframes blink {
+    from, to { 
+        border-color: transparent 
+    }
+    50% { 
+        border-color: orange; 
+    }
+}
+
+
+
+
+
+.home-button {
+    margin-top: 2rem;
+}
+
+.home-button a{
+   width: 12rem!important;
+   height: 100%;
+   line-height: 4 rem;
+   text-align:  center;
+   color: $primary-color;
+   text-transform: capitalize;
+   position: relative;
+   transition: all 0.5s;
+  font-size: 1.5rem;
+  padding: 15px;
+  border: 1px solid $primary-color;
+  border-radius: 4px;
+
+
+}
+.home-button a:hover{
+    color: $font-white;
+}
+.home-button span {
+    position: absolute;
+    width: 25%;
+    height: 100%;
+    background-color: $primary-color;
+    z-index: -1;
+    left: 0;
+    top: 0;
+    transform: scaleY(0);
+    transition: all 0.5s;
+    transform-origin: top;
+}
+.home-button a:hover span{
+    transform:scaleY(1);
+}
+span:nth-child(2) {
+    left: 25%;
+    transition-delay: 0.15s;
+}
+span:nth-child(3) {
+    left: 50%;
+    transition-delay: 0.3s;
+}
+span:nth-child(4) {
+    left: 75%;
+    transition-delay: 0.45s
+}
+
+
