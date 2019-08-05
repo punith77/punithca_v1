@@ -21,7 +21,7 @@ export default class Home extends React.Component {
                             </div>
                             <div className="highlight-text">
                                 <h2>.Net</h2>
-                                <p>Fast load times and lag free interaction, my highest priority</p>
+                                <p>Good in C#  and familar with .Net Core and Entity Framework.</p>
                             </div>
 
                         </div>
@@ -35,7 +35,7 @@ export default class Home extends React.Component {
                             </div>
                             <div className="highlight-text">
                                 <h2>Node.Js</h2>
-                                <p>Fast load times and lag free interaction, my highest priority</p>
+                                <p>Highly skilled in developing api's for enterprise applications.</p>
                             </div>
 
                         </div>
@@ -49,7 +49,7 @@ export default class Home extends React.Component {
                             </div>
                             <div className="highlight-text">
                                 <h2>React</h2>
-                                <p>Fast load times and lag free interaction, my highest priority</p>
+                                <p>I specialise in applications written in React and Redux.</p>
                             </div>
 
                         </div>
@@ -63,95 +63,13 @@ export default class Home extends React.Component {
                             </div>
                             <div className="highlight-text">
                                 <h2>SQL</h2>
-                                <p>Fast load times and lag free interaction, my highest priority</p>
+                                <p>Good understanding of SQL databases like MySQL</p>
                             </div>
 
                         </div>
                     </div>
                 </div>
-
-
             </div>
-            // <div className="section-home" >
-            //     <div className="home-wrapper">
-            //         <div className="home-content">
-
-            //             <div className="home-header">Punith Chirumamilla</div>
-            //             <div className="home-subheader">Software developer with strong skills in development, operations, lifecycle management</div>
-
-            //             <div className="home-button">
-            //                 <a>Know More...<span></span><span></span><span></span><span></span></a>
-            //             </div>
-
-
-
-            //             <div className="about-highlights">
-
-            //                 <div className="highlight-wrapper">
-            //                     <div className="icon-container">
-
-            //                         <div className="icon-wrapper">
-            //                             <i class="fab fa-windows icons"></i>
-            //                         </div>
-            //                     </div>
-            //                     <div className="highlight-text">
-            //                         <h2>.Net</h2>
-            //                         <p>Fast load times and lag free interaction, my highest priority</p>
-            //                     </div>
-
-            //                 </div>
-
-            //                 <div className="highlight-wrapper">
-            //                     <div className="icon-container">
-
-            //                         <div className="icon-wrapper">
-            //                             <i class="fab fa-node icons"></i>
-            //                         </div>
-            //                     </div>
-            //                     <div className="highlight-text">
-            //                         <h2>Node.Js</h2>
-            //                         <p>Fast load times and lag free interaction, my highest priority</p>
-            //                     </div>
-
-            //                 </div>
-
-            //                 <div className="highlight-wrapper">
-            //                     <div className="icon-container">
-
-            //                         <div className="icon-wrapper">
-            //                             <i class="fab fa-react icons"></i>
-            //                         </div>
-            //                     </div>
-            //                     <div className="highlight-text">
-            //                         <h2>React</h2>
-            //                         <p>Fast load times and lag free interaction, my highest priority</p>
-            //                     </div>
-
-            //                 </div>
-
-            //                 <div className="highlight-wrapper">
-            //                     <div className="icon-container">
-
-            //                         <div className="icon-wrapper">
-            //                             <i className="fas fa-database icons"></i>
-            //                         </div>
-            //                     </div>
-            //                     <div className="highlight-text">
-            //                         <h2>SQL</h2>
-            //                         <p>Fast load times and lag free interaction, my highest priority</p>
-            //                     </div>
-
-            //                 </div>
-            //             </div>
-
-
-
-
-            //         </div>
-
-            //     </div>
-
-            // </div>
         )
     }
 }

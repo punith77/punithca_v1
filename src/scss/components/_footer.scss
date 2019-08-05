@@ -13,14 +13,16 @@
 }
 
 .social-container{
-    width: 30%;
-    display: flex;
+    // width: 20rem;
     text-align: center;
-    justify-content: space-around;
+    display: flex;
+    overflow: hidden;
+    // text-align: center;
+    // justify-content: space-around;
 }
 .icon {
-    width: 30px;
-    height: 30px;
+    width: 5rem;
+    height: 5rem;
     background-color: #f1f1f1;
     margin: 10px;
     border-radius: 28%;
@@ -32,21 +34,21 @@
 
 }
 .icon i {
-    line-height: 35px;
-    font-size: 20px;
+    line-height: 5rem;
+    font-size: 2rem;
     transition: all 0.2s;
 }
 .icon:hover i {
-    transform: scale(1.3);
+    transform: scale(1.2);
     color: #f1f1f1;
 }
 .icon:before {
     content: "";
     position: absolute;
-    width: 110%;
-    height: 110%;
+    width: 120%;
+    height: 120%;
     background-color: #7014e8;
-    left: -100%;
+    left: -110%;
     top: 90%;
     transform:rotate(45deg);
 

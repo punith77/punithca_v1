@@ -24,6 +24,7 @@
     align-items: center;
     padding: 20px 0;
     color:#333;
+    
 }
 
 .icon-container{
@@ -132,4 +133,21 @@
  .highlight-text{
      font-size: 1.6rem;
  }
+ 
 
+@media screen and (max-width: 700px){
+    .about-highlights{
+        grid-template-columns: 1fr 1fr;
+    }
+    .highlight-text{
+        font-size: 1.4rem;
+    }
+}
+@media screen and (max-width: 450px){
+    .about-highlights{
+        grid-template-columns: 1fr;
+    }
+    .highlight-text{
+        font-size: 1.3rem;
+    }
+}

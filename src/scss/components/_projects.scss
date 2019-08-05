@@ -27,9 +27,24 @@ grid-gap: 2rem;
     align-items: center;
     background-color: #7014e8;
     color:  white;
-   
-
 }
+
+.project-empty{
+    width: 20rem;
+    height: 20rem;
+    overflow: hidden;
+    position: relative;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #4907a0;
+    color:  #ddd;
+    // opacity:0.5;
+   
+}
+
 .project-container img{
     width: 100%;
     transition: all .5s;
@@ -41,7 +56,8 @@ grid-gap: 2rem;
     height: 100%;
     width: 100%;
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
     transition: all 0.25s;
     transform: translateY(-20px);
@@ -50,8 +66,14 @@ grid-gap: 2rem;
     i {
         font-size: 5rem;
     }
-   
- 
+}
+
+.project-links{
+display: flex;
+justify-content: space-around;
+align-items: center;
+width: 100%;
+margin-top: 3rem;
 }
 .project-container:before{
     content:"";
@@ -72,6 +94,33 @@ transition-delay: 0.25s;
    
 }
 .project-container:hover .project-caption{
+opacity: 1;
+transform: translateY(0);
+transition-delay: 0.3s;
+}
+
+
+
+
+.project-empty:before{
+    content:"";
+    position: absolute;
+    top: 0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    background-color: #7014e8;
+    opacity:0.5;
+    transform: translateY(100%);
+    transition: all 0.25s;
+transition-delay: 0.25s;
+}
+.project-empty:hover:before{
+ transform: translateY(0%);
+ transition-delay: 0s;
+   
+}
+.project-empty:hover .project-caption{
 opacity: 1;
 transform: translateY(0);
 transition-delay: 0.3s;
