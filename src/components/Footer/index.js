@@ -5,7 +5,7 @@ export default class Footer extends React.Component {
     render() {
         return (
 
-            <div className="section-footer">
+            <p className="section-footer">
 
                 <div className="footer-wrapper">
 
@@ -20,7 +20,7 @@ export default class Footer extends React.Component {
                 </div>
 
                 <p className="cp-text">Punith &copy; 2019</p>
-            </div>
+            </p>
         )
     }
 }
