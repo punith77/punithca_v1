@@ -29,8 +29,8 @@ export default class Project extends React.Component {
                         <div className="project-caption">
                             <h3>Chat App</h3>
                             <div className="project-links">
-                                <i class="fab fa-github-square"></i>
-                                <i class="fas fa-globe"></i>
+                                <a href="https://github.com/punith77/node-chat-app" target="_blank"><i class="fab fa-github-square"></i></a>
+                                <a href="https://floating-stream-96246.herokuapp.com/" target="_blank"><i class="fas fa-globe"></i></a>
                             </div>
 
                         </div>
