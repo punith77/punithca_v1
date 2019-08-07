@@ -1,5 +1,5 @@
 .section-home{
-    color: #7014e8;
+    // color: #7014e8;
     display: flex;
     justify-content: center;;
     align-items: center;
@@ -122,7 +122,7 @@
 }
 .icons {
     font-size: 4.8rem;
-    color: white;
+    color: #e0ebe8;
 }
 
 @keyframes rotating {
@@ -132,6 +132,8 @@
 
  .highlight-text{
      font-size: 1.6rem;
+     color: $primary-heading
+     
  }
  
 
@@ -141,6 +143,7 @@
     }
     .highlight-text{
         font-size: 1.4rem;
+        
     }
 }
 @media screen and (max-width: 450px){

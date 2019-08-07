@@ -2,6 +2,7 @@
     border-top: 1px solid #7014e82a;
 
     text-align: center;
+    background-color: #c5ded7;
   
 }
 .footer-wrapper {
@@ -23,10 +24,10 @@
 .icon {
     width: 5rem;
     height: 5rem;
-    background-color: #f1f1f1;
+    background-color: $primary-text;
     margin: 10px;
     border-radius: 28%;
-    color: #7014e8;
+    color: $primary-color;
     box-shadow: 0 5px 15px -5px #00000070;
     position: relative;
     overflow: hidden;
@@ -40,14 +41,14 @@
 }
 .icon:hover i {
     transform: scale(1.2);
-    color: #f1f1f1;
+    color: $primary-text;
 }
 .icon:before {
     content: "";
     position: absolute;
     width: 120%;
     height: 120%;
-    background-color: #7014e8;
+    background-color: $primary-color;
     left: -110%;
     top: 90%;
     transform:rotate(45deg);
@@ -63,7 +64,7 @@
 }
 .cp-text{ 
     padding-top:.8rem;
-    color: #7014e8; 
+    color: $primary-color; 
     text-shadow: 0 1px rgba(255, 255, 255, 0.1);
     font-size: 1rem;
 }

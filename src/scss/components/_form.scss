@@ -3,7 +3,7 @@
 .form-container {
   height: 100%;
   width: 100%;
-  background: #7014e8;
+  background: $secondary-color;
   clip-path: polygon(60% 0, 100% 0, 100% 100%, 40% 100%);
   display: grid;
 grid-template-columns:  1fr 1fr;
@@ -23,29 +23,29 @@ input {
   outline: none;
   border: 0;
   width: 50%;
-  color: #fff;
+  color: $primary-text;
   font-size: 2rem;
   line-height: 4rem;
   background-color: transparent;
-  border-bottom:  2px solid #fff;
+  border-bottom:  2px solid $primary-text;
   margin: 2rem;
 }
 textarea{
   outline: none;
   border: 0;
   width: 50%;
-  color: #fff;
+  color: $primary-text;
   font-size: 2rem;
   line-height: 4rem;
   background-color: transparent;
-  border-bottom:  2px solid #fff;
+  border-bottom:  2px solid $primary-text;
   margin: 1rem;
 }
 input::placeholder{
-  color: rgba(255, 80, 118, 0.63);
+  color: $placholder-color;
 }
 textarea::placeholder{
-  color: rgba(255, 80, 118, 0.63);
+  color: $placholder-color;
 }
 h4{
   font-size: 2rem;
@@ -66,7 +66,7 @@ a:hover{
 .form-container-login {
   height: 100%;
   width: 100%;
-  background: #7014e8;
+  background: $secondary-color;
   clip-path: polygon(0 0, 60% 0 , 40% 100%, 0% 100%);
   display: grid;
 grid-template-columns:  1fr 1fr;
@@ -86,29 +86,29 @@ input {
   outline: none;
   border: 0;
   width: 50%;
-  color: #fff;
+  color: $primary-text;
   font-size: 2rem;
   line-height: 4rem;
   background-color: transparent;
-  border-bottom:  2px solid #fff;
+  border-bottom:  2px solid $primary-text;
   margin: 2rem;
 }
 textarea{
   outline: none;
   border: 0;
   width: 50%;
-  color: #fff;
+  color: $primary-text;
   font-size: 2rem;
   line-height: 4rem;
   background-color: transparent;
-  border-bottom:  2px solid #fff;
+  border-bottom:  2px solid $primary-text;
   margin: 1rem;
 }
 input::placeholder{
-  color: rgba(255, 80, 118, 0.63);
+  color: $placholder-color;
 }
 textarea::placeholder{
-  color: rgba(255, 80, 118, 0.63);
+  color: $placholder-color;
 }
 h4{
   font-size: 2rem;

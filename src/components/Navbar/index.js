@@ -1,6 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
+import Logo from '../../images/logo.png'
+
 
 
 export default class Navbar extends React.Component {
@@ -8,9 +10,13 @@ export default class Navbar extends React.Component {
         return (
             <section className="section-navbar">
                 <div className="navbar-wrapper">
-                    <div className="logo">
-                        <h1>Punith</h1>
-                    </div>
+
+                    <Link to="/"> <div className="logo">
+                        <h3>PC</h3>
+                        <p>Full-Stack Developer</p>
+                        {/* <img src={Logo} alt="Navlogo"></img> */}
+                    </div></Link>
+
                     <nav>
                         <ul className="nav-ul">
 

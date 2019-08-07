@@ -1,7 +1,7 @@
 .section-navbar{
- 
  z-index: 500;
- color: #7014e8;
+background-color: $primary-color;
+color: #e0ebe8;
 
 }
 
@@ -19,7 +19,17 @@ nav {
    
 }
 .logo{
-    padding: 3px 10px;
+    padding: 8px 40px;
+    border: 1px solid $navbar-border;
+    border-radius: 4px;
+    text-align: center;
+    font-size: 1.2rem;
+    p{
+        color: $primary-text;
+    }
+    
+  
+    
 }
 .nav-ul{
     display: flex;
@@ -32,7 +42,6 @@ nav {
 }
 .nav-li a{
     transition: color 0.7s;
-    color: #7014e8;
     font-weight: 600;
    
 }
@@ -42,7 +51,7 @@ nav {
     bottom:0;
     left:0;
     width:100%;
-    background-color: #7014e8;
+    background-color: $navbar-border;
     position: absolute;
     transform: scaleX(0);
     transition: all 0.5s;
