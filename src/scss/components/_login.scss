@@ -8,24 +8,6 @@
   column-gap: 2rem;
       
   }
-//   .login-left{
-//     background: $secondary-color;
-//     display:flex;
-//     justify-content: center;
-//     align-items: center;
-//     flex-direction: column;
-//     width: 100%;
-//   }
-//   .form-left-content{
-//   display:grid;
-//   grid-template-columns: 1fr 1fr;
-//   width: 40%;
-//   margin: 2rem;
-//   i{
-//     font-size: 2.5rem;
-//     padding-top: 1rem;
-//   }
-//   }
   
   .login-left {
   width: 100%;
@@ -76,6 +58,7 @@
       justify-content: center;
       align-items: center;
       font-size: 3rem;
+      width: 100%;
       
       i{
           font-size: 30rem;
@@ -83,6 +66,64 @@
       }
   }
   
+
+  @media screen and (max-width: 1200px){
+    .login-right{
+     
+        font-size: 2rem;
+        
+        i{
+            font-size: 25rem;
+            margin: 5rem 0;
+        }
+    }
+}
+@media screen and (max-width: 800px){
+    .login-left {
+        input {
+          width: 60%;
+          font-size: 1.6rem;
+          line-height: 3rem;
+          margin: 1.5rem;
+        }
+        h2{
+          font-size: 3rem;
+        }
+        }
+    .login-right{
+     
+        font-size: 1rem;
+        
+        i{
+            font-size: 20rem;
+            margin: 5rem 0;
+        }
+    }
+}
+@media screen and (max-width: 600px){
+    .login-container {grid-template-columns: 1fr;}
+      .login-left {
+        grid-row-start: 2;
+        input {
+            width: 40%;
+            font-size: 1.4rem;
+            line-height: 2rem;
+            margin: 1.2rem;
+          }
+          h2{
+            font-size: 2.5rem;
+          }
+        }
+    .login-right{
+        grid-row-start: 1;
+        font-size: 1rem;
+        i{
+            font-size: 15rem;
+            margin: 4rem 0;
+        }
+    }
+}
+
 
   
   
