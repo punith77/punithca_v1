@@ -3,79 +3,31 @@
 .form-container {
   height: 100%;
   width: 100%;
-  background: $secondary-color;
-  clip-path: polygon(60% 0, 100% 0, 100% 100%, 40% 100%);
   display: grid;
 grid-template-columns:  1fr 1fr;
 column-gap: 2rem;
     
 }
-
-
-.section2 {
-width: 100%;
-display:flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-text-align: left;
-input {
-  outline: none;
-  border: 0;
-  width: 50%;
-  color: $primary-text;
-  font-size: 2rem;
-  line-height: 4rem;
-  background-color: transparent;
-  border-bottom:  2px solid $primary-text;
-  margin: 2rem;
-}
-textarea{
-  outline: none;
-  border: 0;
-  width: 50%;
-  color: $primary-text;
-  font-size: 2rem;
-  line-height: 4rem;
-  background-color: transparent;
-  border-bottom:  2px solid $primary-text;
-  margin: 1rem;
-}
-input::placeholder{
-  color: $placholder-color;
-}
-textarea::placeholder{
-  color: $placholder-color;
-}
-h4{
-  font-size: 2rem;
-  margin-bottom: 1rem;
-  font-weight: 200;
-}
-a{
-  margin-top: 3rem;
-  color: #ccc;
-}
-a:hover{
-  
-  color: #fff;
-}
-}
-
-
-.form-container-login {
-  height: 100%;
+.form-left{
+  background: $secondary-color;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   width: 100%;
-  background: $secondary-color;
-  clip-path: polygon(0 0, 60% 0 , 40% 100%, 0% 100%);
-  display: grid;
-grid-template-columns:  1fr 1fr;
-column-gap: 2rem;
-    
+}
+.form-left-content{
+display:grid;
+grid-template-columns: 1fr 1fr;
+width: 40%;
+margin: 2rem;
+i{
+  font-size: 2.5rem;
+  padding-top: 1rem;
+}
 }
 
-
-.section1 {
+.form-right {
 width: 100%;
 display:flex;
 flex-direction: column;
@@ -86,22 +38,22 @@ input {
   outline: none;
   border: 0;
   width: 50%;
-  color: $primary-text;
+  color: $secondary-color;
   font-size: 2rem;
   line-height: 4rem;
   background-color: transparent;
-  border-bottom:  2px solid $primary-text;
+  border-bottom:  2px solid $primary-color;
   margin: 2rem;
 }
 textarea{
   outline: none;
   border: 0;
   width: 50%;
-  color: $primary-text;
+  color: $secondary-color;
   font-size: 2rem;
   line-height: 4rem;
   background-color: transparent;
-  border-bottom:  2px solid $primary-text;
+  border-bottom:  2px solid $primary-color;
   margin: 1rem;
 }
 input::placeholder{
@@ -110,20 +62,48 @@ input::placeholder{
 textarea::placeholder{
   color: $placholder-color;
 }
-h4{
-  font-size: 2rem;
+h2{
+  font-size: 3.8rem;
   margin-bottom: 1rem;
-  font-weight: 200;
+  font-weight: 400;
+  color: $primary-heading;
 }
 a{
-  margin-top: 3rem;
-  color: #ccc;
+  // margin-top: 3rem;
+  color: $primary-para;
 }
 a:hover{
   
-  color: #fff;
+  color: $primary-text;
 }
 }
+
+.btn-container{
+position: relative;
+width: 15rem;
+  height: 5rem;
+  background: $secondary-color;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+ 
+}
+.btn {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 2rem;
+  z-index: 4;
+
+}
+
+
+
+
 
 
 
