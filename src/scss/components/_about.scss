@@ -2,74 +2,67 @@
   color: $primary-color;
 }
 .about-wrapper {
-display: grid;
-grid-template-columns: 1fr 1.5fr;
-height: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+  height: 100%;
 }
-.about-left{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background:$secondary-color;
-    color: #fff;
+.about-left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: $secondary-color;
+  color: #fff;
 }
-.about-img{
-    width: 15rem;
-    height: 15rem;
-    border-radius: 50%;
-    border: 2px solid $primary-text;
-    margin-bottom: 2rem;
+.about-img {
+  width: 15rem;
+  height: 15rem;
+  border-radius: 50%;
+  border: 2px solid $primary-text;
+  margin-bottom: 2rem;
 }
-.about-name{
-    font-size: 5rem;
-position: relative;
-padding-bottom: .7rem;
+.about-name {
+  font-size: 5rem;
+  position: relative;
+  padding-bottom: 0.7rem;
 }
-.about-name:after{
-    content: "";
-    left: 27%;
-    bottom:0;
-    height: 2px;
-    background: $primary-text;
-    width: 50%;
-    position: absolute;
+.about-name:after {
+  content: "";
+  left: 27%;
+  bottom: 0;
+  height: 2px;
+  background: $primary-text;
+  width: 50%;
+  position: absolute;
 }
-.about-position{
-    margin-top: 2rem;
-    text-transform: uppercase;
-    letter-spacing: 4px;
-    margin-left: 1rem;
+.about-position {
+  margin-top: 2rem;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  margin-left: 1rem;
 }
-.about-right{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.about-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.about-me{
-    width: 80%;
-  
-    margin: 0 auto;
-    h1{
-        text-align: center;
-     
-        font-weight: 600;
-        font-size: 7rem;
-        letter-spacing: 2rem;
-      margin-bottom: 3rem;
+.about-me {
+  width: 80%;
 
-    }
-    p{
-        letter-spacing: 2px;
-        line-height: 5rem;
-       padding-bottom: 7rem;
-        text-align: center;
-        color: $primary-para;
-    }
+  margin: 0 auto;
+  h1 {
+    text-align: center;
+
+    font-weight: 600;
+    font-size: 7rem;
+    letter-spacing: 2rem;
+    margin-bottom: 3rem;
+  }
+  p {
+    letter-spacing: 2px;
+    line-height: 5rem;
+    padding-bottom: 7rem;
+    text-align: center;
+    color: $primary-para;
+  }
 }
-
-
-
-
-
-

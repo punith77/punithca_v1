@@ -1,70 +1,75 @@
 .section-footer {
-    border-top: 1px solid #7014e82a;
+  border-top: 1px solid #7014e82a;
 
-    text-align: center;
-    background-color: #c5ded7;
-  
+  text-align: center;
+  background-color: #c5ded7;
 }
 .footer-wrapper {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin:0;
-    padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
 }
 
-.social-container{
-    // width: 20rem;
-    text-align: center;
-    display: flex;
-    overflow: hidden;
-    // text-align: center;
-    // justify-content: space-around;
+.social-container {
+  // width: 20rem;
+  text-align: center;
+  display: flex;
+  overflow: hidden;
+  // text-align: center;
+  // justify-content: space-around;
 }
 .icon {
-    width: 5rem;
-    height: 5rem;
-    background-color: $primary-text;
-    margin: 10px;
-    border-radius: 28%;
-    color: $primary-color;
-    box-shadow: 0 5px 15px -5px #00000070;
-    position: relative;
-    overflow: hidden;
-
-
+  width: 5rem;
+  height: 5rem;
+  background-color: $primary-text;
+  margin: 10px;
+  border-radius: 28%;
+  color: $primary-color;
+  box-shadow: 0 5px 15px -5px #00000070;
+  position: relative;
+  overflow: hidden;
 }
 .icon i {
-    line-height: 5rem;
-    font-size: 2rem;
-    transition: all 0.2s;
+  line-height: 5rem;
+  font-size: 2rem;
+  transition: all 0.2s;
 }
 .icon:hover i {
-    transform: scale(1.2);
-    color: $primary-text;
+  transform: scale(1.2);
+  color: $primary-text;
 }
 .icon:before {
-    content: "";
-    position: absolute;
-    width: 120%;
-    height: 120%;
-    background-color: $primary-color;
-    left: -110%;
-    top: 90%;
-    transform:rotate(45deg);
-
+  content: "";
+  position: absolute;
+  width: 120%;
+  height: 120%;
+  background-color: $primary-color;
+  left: -110%;
+  top: 90%;
+  transform: rotate(45deg);
 }
 .icon:hover:before {
-    animation: iconhover 0.7s 1 forwards;
+  animation: iconhover 0.7s 1 forwards;
 }
 @keyframes iconhover {
-   0% {left: -100%;top:90%;} 
-   50% {left: 15%; top: -30%;}
-   100% {left:-10%; top: -10%;}
+  0% {
+    left: -100%;
+    top: 90%;
+  }
+  50% {
+    left: 15%;
+    top: -30%;
+  }
+  100% {
+    left: -10%;
+    top: -10%;
+  }
 }
-.cp-text{ 
-    padding-top:.8rem;
-    color: $primary-color; 
-    text-shadow: 0 1px rgba(255, 255, 255, 0.1);
-    font-size: 1rem;
+.cp-text {
+  padding-top: 0.8rem;
+  color: $primary-color;
+  text-shadow: 0 1px rgba(255, 255, 255, 0.1);
+  font-size: 1rem;
 }

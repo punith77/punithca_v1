@@ -1,37 +1,35 @@
 *,
 *::after,
 *::before {
-    margin: 0px;
-    padding: 0px;
-    box-sizing: inherit;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: inherit;
 }
 
 html {
-    font-size: 62.5%;
-    overflow-x: hidden;
+  font-size: 62.5%;
+  overflow-x: hidden;
 }
 
 body {
-    font-family: 'Nunito Sans', sans-serif;
-    font-weight: 400;
-    line-height: 1.7;
-    color: $primary-text;
-    box-sizing: border-box;
-    font-size: 1.6rem;
-    overflow-x: hidden;
-    background-color: $primary-text;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 400;
+  line-height: 1.7;
+  color: $primary-text;
+  box-sizing: border-box;
+  font-size: 1.6rem;
+  overflow-x: hidden;
+  background-color: $primary-text;
 }
 
-li{
-    list-style: none; 
+li {
+  list-style: none;
 }
-a{
-    text-decoration: none;
-    color: #fff;
-    text-decoration: none;
-
+a {
+  text-decoration: none;
+  color: #fff;
+  text-decoration: none;
 }
-p{
-    color: #545454
+p {
+  color: #545454;
 }
-

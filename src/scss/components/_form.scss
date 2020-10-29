@@ -1,86 +1,82 @@
-
-
 .form-container {
   height: 100%;
   width: 100%;
   display: grid;
-grid-template-columns:  1fr 1fr;
-column-gap: 2rem;
-    
+  grid-template-columns: 1fr 1fr;
+  column-gap: 2rem;
 }
-.form-left{
+.form-left {
   background: $secondary-color;
-  display:flex;
+  display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   width: 100%;
 }
-.form-left-content{
-display:grid;
-grid-template-columns: 1fr 1fr;
-width: 50%;
-margin: 2rem;
-i{
-  font-size: 2.5rem;
-  padding-top: 1rem;
-}
+.form-left-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 50%;
+  margin: 2rem;
+  i {
+    font-size: 2.5rem;
+    padding-top: 1rem;
+  }
 }
 
 .form-right {
-width: 100%;
-display:flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-text-align: left;
-input {
-  outline: none;
-  border: 0;
-  width: 50%;
-  color: $secondary-color;
-  font-size: 2rem;
-  line-height: 4rem;
-  background-color: transparent;
-  border-bottom:  2px solid $primary-color;
-  margin: 2rem;
-}
-textarea{
-  outline: none;
-  border: 0;
-  width: 50%;
-  color: $secondary-color;
-  font-size: 2rem;
-  line-height: 4rem;
-  background-color: transparent;
-  border-bottom:  2px solid $primary-color;
-  margin: 1rem;
-}
-input::placeholder{
-  color: $placholder-color;
-}
-textarea::placeholder{
-  color: $placholder-color;
-}
-h2{
-  font-size: 3.8rem;
-  margin-bottom: 1rem;
-  font-weight: 400;
-  color: $primary-heading;
-}
-a{
-  // margin-top: 3rem;
-  color: $primary-para;
-}
-a:hover{
-  
-  color: $primary-text;
-}
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  input {
+    outline: none;
+    border: 0;
+    width: 50%;
+    color: $secondary-color;
+    font-size: 2rem;
+    line-height: 4rem;
+    background-color: transparent;
+    border-bottom: 2px solid $primary-color;
+    margin: 2rem;
+  }
+  textarea {
+    outline: none;
+    border: 0;
+    width: 50%;
+    color: $secondary-color;
+    font-size: 2rem;
+    line-height: 4rem;
+    background-color: transparent;
+    border-bottom: 2px solid $primary-color;
+    margin: 1rem;
+  }
+  input::placeholder {
+    color: $placholder-color;
+  }
+  textarea::placeholder {
+    color: $placholder-color;
+  }
+  h2 {
+    font-size: 3.8rem;
+    margin-bottom: 1rem;
+    font-weight: 400;
+    color: $primary-heading;
+  }
+  a {
+    // margin-top: 3rem;
+    color: $primary-para;
+  }
+  a:hover {
+    color: $primary-text;
+  }
 }
 
-.btn-container{
-position: relative;
-width: 15rem;
+.btn-container {
+  position: relative;
+  width: 15rem;
   height: 5rem;
   background: $secondary-color;
   border-radius: 4px;
@@ -88,7 +84,6 @@ width: 15rem;
   justify-content: center;
   align-items: center;
   margin-top: 3rem;
- 
 }
 .btn {
   width: 100%;
@@ -98,33 +93,27 @@ width: 15rem;
   align-items: center;
   font-size: 2rem;
   z-index: 4;
-
 }
 
-
-
-
-@media screen and (max-width: 1100px){
-  .form-left-content{
-  
+@media screen and (max-width: 1100px) {
+  .form-left-content {
     width: 70%;
     margin: 1.7rem;
-    i{
+    i {
       font-size: 2.3rem;
       padding-top: 0.8rem;
     }
-    }
-    .form-right {
-    h2{
+  }
+  .form-right {
+    h2 {
       font-size: 3.4rem;
-     
     }
   }
 }
 
 // @media screen and (max-width: 800px){
 //   .form-left-content{
-  
+
 //     width: 0%;
 //     margin: 1.4rem;
 //     i{
@@ -135,22 +124,7 @@ width: 15rem;
 //     .form-right {
 //     h2{
 //       font-size: 3rem;
-     
+
 //     }
 //   }
 // }
-
-
-
-
-
-
-
-
-
-
-
-  
-
-  
-  
